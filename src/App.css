@@ -1,10 +1,135 @@
+/* * {
+  border: 0.1px solid black;
+} */
+/* ===============
+    global styles
+  ================ */
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
-  background-color: #7f5a83;
-  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  margin: 0;
+  font-size: 18px;
+  background-image: linear-gradient(
+    225deg,
+    #761a50 0%,
+    #482d5f 50%,
+    #1e5c87 100%
+  );
+  background-size: cover;
   font-family: "Noto Sans", sans-serif;
   color: lightgrey;
-  text-shadow: ;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #1a1a1a, 0 2px 0 #181818, 0 3px 0 #161616,
+    0 4px 0 #141414, 0 5px 0 #121212;
 }
+
 h1 {
   color: ivory;
+  color: #e0dfdc;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #1a1a1a, 0 2px 0 #181818, 0 3px 0 #161616,
+    0 4px 0 #141414, 0 5px 0 #121212;
+}
+
+/* =================
+  typography styles
+  ================== */
+
+/* ===============
+        layout
+  ================ */
+
+header {
+  border-bottom: 1px solid black;
+}
+
+header {
+  font-size: xx-small;
+}
+
+div {
+  background-color: #761a50;
+  background-image: linear-gradient(
+    225deg,
+    #761a50 0%,
+    #482d5f 50%,
+    #1e5c87 100%
+  );
+}
+div div {
+  background: transparent;
+}
+
+#home,
+#docs {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+#intro,
+#blurb {
+  text-align: center;
+  margin: 0 0.5em 0 0.5em;
+}
+
+#basicUsage {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  /* margin: 1em;
+    padding: 1em; */
+  border: 2px black solid;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.23012955182072825) 0%,
+    rgba(93, 93, 93, 1) 50%,
+    rgba(0, 0, 0, 0.20211834733893552) 100%
+  );
+  text-align: center;
+}
+
+#basicUsage > * {
+  margin: 1em;
+}
+
+/* ===============
+      components
+  ================ */
+
+/* buttons */
+#getStartedButton {
+  margin: 1em;
+  background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(0, 0, 0, 0.25) 200%
+    );
+  background-blend-mode: multiply;
+}
+
+#getStartedButton {
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: 1px solid #121212;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 10px;
+}
+
+#getStartedButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#homeButton,
+#menuButton {
+  box-shadow: 0 0 4px #eee;
 }

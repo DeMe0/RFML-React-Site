@@ -1,4 +1,6 @@
 import React from "react";
+import HomeIcon from "@mui/icons-material/Home";
+
 import {
   AppBar,
   Box,
@@ -15,6 +17,7 @@ export default function ButtonAppBar() {
       <AppBar position="static" color="transparent">
         <Toolbar>
           <IconButton
+            id="menuButton"
             size="large"
             edge="start"
             color="inherit"
@@ -26,8 +29,8 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             React Federated Module Loader
           </Typography>
-          <Button color="inherit" href="/">
-            Home
+          <Button id="homeButton" color="inherit" href="/">
+            <HomeIcon />
           </Button>
         </Toolbar>
       </AppBar>
