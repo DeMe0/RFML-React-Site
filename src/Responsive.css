@@ -5,9 +5,32 @@
 }
 
 @media screen and (min-width: 600px) {
-  #docs > * {
+  #docs,
+  #home > * {
     margin: 0 10% 0 10%;
   }
-  #title {
+  #intro {
+    margin-left: -1%;
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #docs,
+  #home > * {
+    margin: 0 20% 0 20%;
+  }
+  #intro {
+    margin-left: -1%;
+    max-width: 70%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    padding: 10px 0 10px 0;
   }
 }

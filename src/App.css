@@ -14,18 +14,22 @@ body,
 
 body {
   font-size: 18px;
-  /* background-image: linear-gradient(
+  /* background-image: repeating-linear-gradient(
     225deg,
     #761a50 0%,
     #482d5f 50%,
     #1e5c87 100%
   ); */
-  background-image: repeating-linear-gradient(
-    #761a50 0%,
-    #482d5f 20%,
-    #1e5c87 40%,
-    #761a50
+  background-image: repeating-radial-gradient(
+    circle at 0 0,
+    #1f1624 0%,
+    #0d0814 20%,
+    #1b1a24 40%,
+    #440e2d,
+    75%,
+    #1f1624
   );
+  background-size: cover;
   font-family: "Noto Sans", sans-serif;
   color: #eef1fd;
   /* text-shadow: 0 -1px 0 #fff, 0 1px 0 #1a1a1a, 0 2px 0 #181818, 0 3px 0 #161616,
@@ -82,9 +86,9 @@ footer {
     #1e5c87 100%
   );
 } */
-div div {
+/* div div {
   background: transparent;
-}
+} */
 
 #home,
 #docs {
@@ -100,6 +104,7 @@ div div {
 #intro,
 #blurb {
   margin: 0 0.5em 0 0.5em;
+  max-width: 350px;
 }
 
 #intro {
