@@ -1,6 +1,9 @@
 import React from "react";
 import ArticleTwoToneIcon from "@mui/icons-material/ArticleTwoTone";
-import { Fab } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import LogoDevIcon from "@mui/icons-material/LogoDev";
+import { Link, Fab } from "@mui/material";
 
 const Home = () => {
   return (
@@ -18,8 +21,10 @@ const Home = () => {
         </Fab>
       </div>
       <div id="basicUsage">
-        <h2>Basic Usage</h2>
-        <h3>What this is used for</h3>
+        <div id="basicUsageFlexbox">
+          <h2>Basic Usage</h2>
+        </div>
+        <h3>What this is used for?</h3>
         <p>
           This is used to load remote javascript modules from a host application
           that does not yet use Webpack 5.
@@ -44,6 +49,17 @@ const Home = () => {
           </em>
         </p>
       </div>
+      <footer id="footer">
+        <Link href="https://github.com/nicholasgalante1997">
+          <GitHubIcon />
+        </Link>
+        <Link>
+          <LogoDevIcon />
+        </Link>
+        <Link href="https://www.linkedin.com/in/nicholas-galante-1963041a2/">
+          <LinkedInIcon />
+        </Link>
+      </footer>
     </div>
   );
 };

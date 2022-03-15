@@ -1,0 +1,13 @@
+@media screen and (max-width: 500px) {
+  pre {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #docs > * {
+    margin: 0 10% 0 10%;
+  }
+  #title {
+  }
+}

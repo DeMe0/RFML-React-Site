@@ -6,8 +6,10 @@ const Docs = () => {
   return (
     <div id="docs">
       <div id="gettingStarted">
-        <h1 className="title">React Federated Module Loader</h1>
-        <h2 className="gettingStarted">Getting Started</h2>
+        <h1 id="title">React Federated Module Loader</h1>
+        <div id="gettingStartedFlexbox">
+          <h2 className="gettingStarted">Getting Started</h2>
+        </div>
         <h3>Installation</h3>
         <p>
           You can install <code>react-federated-module-loader</code> with either
@@ -272,8 +274,8 @@ const Docs = () => {
           the above book.
         </p>
         <h3>Appendix</h3>
-        <h4>Lean More About Module Federation & Microfrontends</h4>
-        <p>
+        <h5>Learn More About Module Federation & Microfrontends</h5>
+        <p id="appendixLinks">
           <em>Module Federation Docs</em>{" "}
           <a
             href="https://webpack.js.org/concepts/module-federation/"
@@ -281,6 +283,7 @@ const Docs = () => {
           >
             !docs
           </a>
+          <br />
           <em>Module Federation Youtube Playlist</em>{" "}
           <a
             href="https://www.youtube.com/playlist?list=PLNqp92_EXZBLr7p7hn6IYa1YPNs4yJ1t1"
@@ -288,7 +291,8 @@ const Docs = () => {
           >
             !youtube
           </a>
-          <em>Building Microfrontends</em>
+          <br />
+          <em>Building Microfrontends</em>{" "}
           <a
             href="https://www.oreilly.com/library/view/building-micro-frontends/9781492082989/"
             rel="nofollow"

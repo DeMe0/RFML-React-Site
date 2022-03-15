@@ -26,8 +26,8 @@ export default function ButtonAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            React Federated Module Loader
+          <Typography variant="p" component="div" sx={{ flexGrow: 1 }}>
+            react-federated-module-loader
           </Typography>
           <Button id="homeButton" color="inherit" href="/">
             <HomeIcon />
