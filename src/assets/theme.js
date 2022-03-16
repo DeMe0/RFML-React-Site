@@ -30,6 +30,21 @@ const customTheme = createTheme({
         },
       },
     },
+    MuiList: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#2C2C2C",
+          textAlign: "center",
+          transition: "0.5s",
+          backgroundSize: "200% auto",
+          color: "white",
+          border: "1px solid #121212",
+          boxShadow: "0 0 10px #eee",
+          borderRadius: "10px",
+          textDecoration: "none",
+        },
+      },
+    },
   },
 });
 
