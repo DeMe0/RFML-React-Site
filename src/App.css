@@ -101,6 +101,14 @@ footer {
   min-height: 100vh;
 }
 
+#home a:visited,
+#docs a:visited {
+  color: skyblue;
+}
+a {
+  color: white;
+}
+
 #intro,
 #blurb {
   margin: 0 0.5em 0 0.5em;
@@ -197,6 +205,7 @@ footer {
       rgba(0, 0, 0, 0.25) 200%
     );
   background-blend-mode: multiply;
+  color: white !important;
 }
 
 #getStartedButton {
